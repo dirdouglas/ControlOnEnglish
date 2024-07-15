@@ -14,3 +14,19 @@ frontend:
   cache:
     paths:
       - node_modules/**/*
+backend:
+  phases:
+    preBuild:
+      commands:
+        - pip3 install --user pipenv
+        - pip3 install --user virtualenv
+    build:
+      commands:
+        - pipenv install --skip-lock --system
+  artifacts:
+    baseDirectory: .
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - 'vendor/bundle/**'
