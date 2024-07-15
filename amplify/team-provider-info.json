@@ -1,0 +1,47 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-controlonenglish-dev-c5f66-authRole",
+      "UnauthRoleArn": "arn:aws:iam::891376912220:role/amplify-controlonenglish-dev-c5f66-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::891376912220:role/amplify-controlonenglish-dev-c5f66-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-controlonenglish-dev-c5f66-deployment",
+      "UnauthRoleName": "amplify-controlonenglish-dev-c5f66-unauthRole",
+      "StackName": "amplify-controlonenglish-dev-c5f66",
+      "StackId": "arn:aws:cloudformation:us-east-2:891376912220:stack/amplify-controlonenglish-dev-c5f66/a2de9520-4150-11ef-80a5-02c85351bd3b",
+      "AmplifyAppId": "d2stkav0nkw62i"
+    },
+    "categories": {
+      "auth": {
+        "controlonenglish4fb9ac17": {}
+      }
+    }
+  },
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-controlonenglish-prod-c22b6-authRole",
+      "UnauthRoleArn": "arn:aws:iam::891376912220:role/amplify-controlonenglish-prod-c22b6-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::891376912220:role/amplify-controlonenglish-prod-c22b6-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-controlonenglish-prod-c22b6-deployment",
+      "UnauthRoleName": "amplify-controlonenglish-prod-c22b6-unauthRole",
+      "StackName": "amplify-controlonenglish-prod-c22b6",
+      "StackId": "arn:aws:cloudformation:us-east-2:891376912220:stack/amplify-controlonenglish-prod-c22b6/ad29c200-42ba-11ef-9b2a-064e6c76cc3d",
+      "AmplifyAppId": "d2stkav0nkw62i"
+    },
+    "categories": {
+      "auth": {
+        "controlonenglish4fb9ac17": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d2stkav0nkw62i",
+          "type": "cicd"
+        }
+      },
+      "function": {
+        "controlonenglishf870284a": {}
+      }
+    }
+  }
+}
